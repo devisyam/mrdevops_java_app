@@ -16,7 +16,7 @@ pipeline{
             steps {
                 script {
                     
-                    mvntest()
+                    mvn test()
                 }
             }
         }
