@@ -15,6 +15,7 @@ pipeline{
         stage('mvn test') {
             steps {
                 script {
+                    
                     mvntest()
                 }
             }
@@ -22,6 +23,7 @@ pipeline{
         stage('integration test maven') {
             steps {
                 script {
+                    
                     mvnIntegrationTest()
                 }
             }
